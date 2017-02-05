@@ -42,7 +42,7 @@ int main(int argc, char **argv) {
 
     elf::elf elf_file(elf::create_mmap_loader(fd));
 
-    // We only disassmble TriCore executables.
+    // We only disassemble TriCore executables.
     if (static_cast<elf::ElfISA>(elf_file.get_hdr().machine)
         != elf::ElfISA::kTriCore) {
         fprintf(stderr, "%s : Elf file architecture is not TriCore!\n", argv[1]);
