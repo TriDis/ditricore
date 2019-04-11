@@ -2,7 +2,7 @@
 A demo TriCore disassembler. Given a TriCore ELF file as input, we look 
 into the symbol table for TriCore code mapping symbols. 
 Available instructions are disassembled based on code symbols 
-and printed to stdout. When symbol table is not found, disassmebly is done 
+and printed to stdout. When symbol table is not found, disassembly is done 
 using linear sweep similar to **objdump**.
 
 Additionally, the tool displays some useful statistics such as the 
@@ -17,8 +17,8 @@ It's possible to use linear sweep directly using **-l** option.
 
 # Dependencies 
 
-The project depends on [Capstone] disassembly library.              
+The project depends on [our forked Capstone disassembly library].              
 
-  [Capstone]: <https://github.com/aquynh/capstone>
+  [our forked Capstone disassembly library]: <https://github.com/TriDis/capstone>
   [here]: <https://github.com/abenkhadra/cases16-benchmarks>
 
