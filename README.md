@@ -17,8 +17,9 @@ It's possible to use linear sweep directly using **-l** option.
 
 # Dependencies 
 
-The project depends on [our forked Capstone disassembly library].              
+The project depends on [our forked Capstone disassembly library] and on our [llvm-tricore].
 
   [our forked Capstone disassembly library]: <https://github.com/TriDis/capstone>
   [here]: <https://github.com/abenkhadra/cases16-benchmarks>
+  [llvm-tricore]: <https://github.com/TriDis/llvm-tricore>
 
